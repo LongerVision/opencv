@@ -59,7 +59,7 @@ In order to use the Astra camera's depth sensor with OpenCV you should do the fo
     --       avformat:                  YES (58.45.100)
     --       avutil:                    YES (56.51.100)
     --       swscale:                   YES (5.7.100)
-    --       avresample:                NO
+    --       swresample:                NO
     --     GStreamer:                   YES (1.18.1)
     --     OpenNI2:                     YES (2.3.0)
     --     v4l/v4l2:                    YES (linux/videodev2.h)

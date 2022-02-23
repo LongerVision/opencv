@@ -16,7 +16,7 @@ ADD ffmpeg-${VER}.tar.xz /ffmpeg/
 
 WORKDIR /ffmpeg/ffmpeg-${VER}
 RUN ./configure \
-    --enable-avresample \
+    --enable-swresample \
     --prefix=/ffmpeg-shared \
     --enable-shared \
     --disable-static \
@@ -29,7 +29,7 @@ RUN ./configure \
     && make distclean
 
 RUN ./configure \
-    --enable-avresample \
+    --enable-swresample \
     --prefix=/ffmpeg-static \
     --disable-shared \
     --enable-static \
