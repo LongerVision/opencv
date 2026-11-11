@@ -379,7 +379,7 @@ Integration with [FFmpeg](https://en.wikipedia.org/wiki/FFmpeg) library for deco
 - _avformat_
 - _avutil_
 - _swscale_
-- _avresample_ (optional)
+- _swresample_ (optional)
 
 Exception is Windows platform where a prebuilt [plugin library containing FFmpeg](https://github.com/opencv/opencv_3rdparty/tree/ffmpeg/5.x) will be downloaded during a configuration stage and copied to the `bin` folder with all produced libraries.
 

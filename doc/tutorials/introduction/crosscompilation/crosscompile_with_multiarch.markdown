@@ -348,7 +348,7 @@ Following is cmake outputs.
 --       avformat:                  YES (60.3.100)
 --       avutil:                    YES (58.2.100)
 --       swscale:                   YES (7.1.100)
---       avresample:                NO
+--       swresample:                NO
 --     GStreamer:                   NO
 --     v4l/v4l2:                    YES (linux/videodev2.h)
 --
@@ -589,7 +589,7 @@ Following is cmake outputs.
 --       avformat:                  YES (60.3.100)
 --       avutil:                    YES (58.2.100)
 --       swscale:                   YES (7.1.100)
---       avresample:                NO
+--       swresample:                NO
 --     GStreamer:                   NO
 --     v4l/v4l2:                    YES (linux/videodev2.h)
 --
